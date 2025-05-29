@@ -1,2 +1,2 @@
-# Next_Trading_Project
+# next_trading_project
 Backtesting, Screening, Webapp
