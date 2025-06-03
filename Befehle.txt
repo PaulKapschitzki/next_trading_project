@@ -1,0 +1,3 @@
+Start von frontend und backend:
+
+docker-compose up -d
