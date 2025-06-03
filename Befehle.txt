@@ -1,3 +1,40 @@
-Start von frontend und backend:
-
+# Docker Compose verwenden
+docker compose up -d
+# or
 docker-compose up -d
+
+# Status der Container prüfen
+docker ps
+
+# Logs anzeigen
+docker compose logs -f
+
+# Container stoppen
+docker compose down
+
+# Container neu starten (nach Änderungen)
+docker compose up -d --build
+
+# Backend ohne Docker starten
+cd backend
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+# Frontend ohne Docker starten
+cd frontend
+npm install
+npm run dev
+
+# Demo-Daten laden
+# Browser öffnen: http://localhost:8000/demo-data
+
+# Git-Befehle bei Konflikten
+git status
+git add .
+git commit -m "Konflikt gelöst"
+git push
+
+# Git-Force-Push (nur wenn nötig)
+git push -f origin main
