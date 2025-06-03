@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Next Trading Project
 
 Eine professionelle Web-Applikation für das tägliche Screening, Backtesting und Analysieren von Aktien-Tradingstrategien. Die Datenquelle ist Norgate Data (lokale CSVs oder Datenbankanbindung).
@@ -39,3 +40,7 @@ next_trading_project/
 ├── .env                     # Umgebungsvariablen
 └── README.md
 ```
+=======
+# Next_Trading_Project
+Backtesting, Screening, Webapp
+>>>>>>> 3fcac97c915763d0b133b09f297fbf14e95fa4ba
